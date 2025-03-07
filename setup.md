@@ -60,7 +60,7 @@ This document provides step-by-step instructions to deploy and test the 2-tier A
 ## Cleanup
 
 To destroy the infrastructure and avoid unnecessary charges, run:  
-Add your `terraform destroy` command here.  
+ `terraform destroy`  
 Confirm the action by typing `yes` when prompted.
 
 ---
