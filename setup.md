@@ -41,7 +41,7 @@ This document provides step-by-step instructions to deploy and test the 2-tier A
 
    - Use the RDS endpoint (output by Terraform) to connect to the MySQL database.
    - Example command:  
-     Add your MySQL connection command here.
+   ```mysql -h <rds-endpoint> -u admin -p```
    - Enter the database password when prompted.
 
 3. **Trigger Alerts**:
