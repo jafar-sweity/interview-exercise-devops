@@ -16,7 +16,7 @@ resource "aws_security_group" "public_sg" {
     from_port   = 22
     to_port     = 22
     protocol    = "tcp"
-    cidr_blocks = ["${var.trusted_ip}/32"] # Fix: Append /32 to make it a valid CIDR block
+    cidr_blocks = ["${var.trusted_ip}/32"] 
   }
 
   egress {
